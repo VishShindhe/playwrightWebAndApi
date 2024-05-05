@@ -1,5 +1,5 @@
-import { defineConfig, devices } from "@playwright/test";
 import { config } from "dotenv";
+import { defineConfig, devices } from "@playwright/test";
 
 //staging ==> .env.staging
 //to run with specific environment from cmd line

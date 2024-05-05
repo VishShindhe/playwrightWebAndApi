@@ -1,9 +1,9 @@
 import { test, expect } from "@playwright/test";
-import { Env } from "../../frameworkConfig/env";
-import LoginPage from "../../pages/loginPage";
-import HomePage from "../../pages/homePage";
-import AddEmployeePage from "../../pages/addEmployeePage";
-import { getRandomEmployeeDetails } from "../../testData/random";
+import { Env } from "../../../frameworkConfig/env";
+import LoginPage from "../../../pages/loginPage";
+import HomePage from "../../../pages/homePage";
+import AddEmployeePage from "../../../pages/addEmployeePage";
+import { getRandomEmployeeDetails } from "../../../testData/random";
 
 test("Add Employee", async ({ page }) => {
 
